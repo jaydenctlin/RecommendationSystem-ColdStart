@@ -24,13 +24,13 @@ The hybrid model combines Deep Neural Networks (DNN) with Alternating Least Squa
 
 #### Key Features:
 - Achieved an average precision of 89% for cold start users
+- Outperformed ALS-only models by 2% for non-cold start users when using 10% and 20% data
 - Combines deep learning with ALS to improve recommendation accuracy
 - Leverages implicit data (restaurant ratings and rating counts) for better user-item matrix refinement
-- Outperformed ALS-only models by 2% for non-cold start users when using 10% and 20% data
 
 ## Results
 
-The hybrid model demonstrated superior performance, achieving a PR-AUC value of 0.89 on user cold start data and generally performing better on cold start than non-cold start data by a margin of 0.05 to 0.07. The model yielded better outcomes across datasets of both 10% and 20% compared to ALS only, indicating its effectiveness in addressing the cold-start user problem and enhancing overall recommendation quality in real-world scenarios.
+The hybrid model demonstrated superior performance, achieving an average precision of 89% on user cold start data and generally performing better on cold start than non-cold start data by a margin of 5% to 7%. The model yielded better outcomes across datasets of both 10% and 20% compared to ALS only, indicating its effectiveness in addressing the cold-start user problem and enhancing overall recommendation quality in real-world scenarios.
 
 ## Repository Structure
 
