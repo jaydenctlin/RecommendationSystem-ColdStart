@@ -10,8 +10,6 @@ This is a course project for ST446 Distributed Computing for Big Data.
 
 ## Data
 
-### Strategy of Data Processing
-
 To address the cold-start problem in ALS model, we used Google Local Data (2021), which encompasses review details from Google Maps up to September 2021 in the United States. This dataset includes rating data, such as ratings and timestamps, alongside business metadata, like addresses, review counts, and categories. The database predominantly comprises users with limited historical data where most users have provided only one rating. This characteristic closely aligns with our research question and mirrors the real-world scenario where the platform frequently needs to generate recommendations for new users without knowing their preferences. With its extensive data volume of over 600 million ratings from 100 million users, this database serves as an appropriate choice for the project, providing a comprehensive and realistic representation of the challenges associated with recommendation systems.
 
 To deal with the extensive data, we employed distributed computing using Google Cloud Platform (GCP) for data storage and processing. Parquet, seamlessly integrated with Apache Spark, leverages partitioned and columnar storage to enhance the performance of data query and retrieval effectively.
