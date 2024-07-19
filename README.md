@@ -18,7 +18,7 @@ To deal with the extensive data, we employed distributed computing using Google 
 
 ## Models Implemented
 
-### 1. Hybrid Model (DNN + ALS)
+### Hybrid Model (DNN + ALS)
 
 The hybrid model combines Deep Neural Networks (DNN) with Alternating Least Squares (ALS) to predict user preferences. This approach aims to address the cold start problem by integrating the strengths of both methods.
 
